@@ -1,3 +1,29 @@
 body {
-    background-color: purple;
+    background-color: #AFEEEE;
 }
+h1 { 
+    text-align: center;
+    color: #008080;
+
+}
+
+p {
+    color: #FF8362;
+    font-family:"Arial" ;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100;
+}
+
+nav:hover{ 
+    text-transform: uppercase;
+    color: #FF8362;
+    font-family: "PT sans"
+    
+}
+
