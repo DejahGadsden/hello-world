@@ -1,7 +1,7 @@
 body {
     background-color: #AFEEEE;
 }
-h1 { 
+#h1 { 
     text-align: center;
     color: #008080;
     text-transform: capitalize
@@ -10,21 +10,12 @@ h1 {
 
 h1:hover {
     color: #FF8362;
-    font-family:"PT sans"
     
     
 }
 
 
-
-p {
-   text-align: center;
-   color: #008080;
-    
-    
-}
-
-p:hover {
+#p:hover {
     color: #FF8362;
     font-family:"PT sans" ;
     text-align: center;
@@ -52,4 +43,45 @@ nav-link {
 nav-link:hover {
     opacity: 1;
     background-color: #eee !important;
+}
+
+
+
+header {
+
+
+    background-image: url("backimg.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;    
+}
+
+.services{
+    text-align: center;
+}
+
+
+.services i{
+    font-size: 30px;
+    padding: 25px 20px;
+    
+    background-color: #0c798c;
+    color: #fff;
+    
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 50%;
+    
+    
+}
+
+.services span{
+    font-weight: bold;
+    
+    
 }
