@@ -59,7 +59,7 @@ header {
     text-transform: capitalize;    
 }
 
-.services{
+.services {
     text-align: center;
 }
 
@@ -84,4 +84,24 @@ header {
     font-weight: bold;
     
     
+}
+
+.plans {
+    text-align: center;
+   
+}
+
+.plans div {
+    /*background-color: #fff;*/
+    border-radius: 25px;
+    padding: 20px;
+    
+}
+
+
+.box {
+    padding: 0 5px 0 5px;
+}
+.box .inner {
+    background-color: #fff;
 }
