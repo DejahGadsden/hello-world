@@ -1,12 +1,9 @@
 body {
     background-color: #AFEEEE;
 }
-#h1 { 
-    text-align: center;
-    color: #008080;
-    text-transform: capitalize
 
-}
+
+
 
 h1:hover {
     color: #FF8362;
@@ -15,11 +12,8 @@ h1:hover {
 }
 
 
-#p:hover {
-    color: #FF8362;
-    font-family:"PT sans" ;
-    text-align: center;
-}
+
+
 
 img {
   display: block;
@@ -92,7 +86,7 @@ header {
 }
 
 .plans div {
-    /*background-color: #fff;*/
+    
     border-radius: 25px;
     padding: 20px;
     
@@ -104,4 +98,15 @@ header {
 }
 .box .inner {
     background-color: #fff;
+}
+
+.box .inner h3 {
+    border-radius: 25px;
+    padding: 20px;
+    background-color:  #FF8362;
+}
+.box .inner h5 {
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #E8E8E8;
 }
