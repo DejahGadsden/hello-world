@@ -93,20 +93,54 @@ header {
 }
 
 
-.box {
+.subbox {
     padding: 0 5px 0 5px;
 }
-.box .inner {
+.subbox .inner {
     background-color: #fff;
 }
 
-.box .inner h3 {
+.subbox .inner h3 {
     border-radius: 25px;
     padding: 20px;
     background-color:  #FF8362;
 }
-.box .inner h5 {
+.subbox .inner h5 {
     border-radius: 25px;
     padding: 20px;
     background-color: #E8E8E8;
 }
+
+.team {
+    text-align: center;
+    
+}
+
+.team .col-md-8 {
+    background-color: blue;
+    
+}
+
+.team .col-md-4 {
+    background-color: green;
+    
+}
+
+
+.test {
+    text-align: center;
+}
+
+
+.test .col-md-4 {
+    background-color: gray;
+}
+
+.test .col-md-6 {
+    background-color: white;
+}
+
+.test .col-md-2 {
+    background-color: pink;
+}
+
