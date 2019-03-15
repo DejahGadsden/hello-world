@@ -111,36 +111,64 @@ header {
     background-color: #E8E8E8;
 }
 
-.team {
+.test21 {
     text-align: center;
     
 }
 
-.team .col-md-8 {
+.test21 .col-md-8 {
     background-color: blue;
     
 }
 
-.team .col-md-4 {
+.test21 .col-md-4 {
     background-color: green;
     
 }
 
 
-.test {
+.test2 {
     text-align: center;
 }
 
 
-.test .col-md-4 {
+.test2 .col-md-4 {
     background-color: gray;
 }
 
-.test .col-md-6 {
+.test2 .col-md-6 {
     background-color: white;
 }
 
-.test .col-md-2 {
+.test2 .col-md-2 {
     background-color: pink;
 }
 
+.team {
+    text-align: center;
+}
+
+
+.team img {
+    width: 250px;
+    height: 250px;
+   /*Object fit will crop and center image based on width and height*/
+   object-fit: cover;
+   border-radius: 50%;
+   margin-bottom: 50px;
+
+}
+
+.contact {
+    text-align: center;
+}
+
+
+
+.contact .input-group {
+     margin-bottom: 25px;
+}
+
+.contact i {
+    padding: 15px;
+}
