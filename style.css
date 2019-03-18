@@ -103,7 +103,7 @@ header {
 .subbox .inner h3 {
     border-radius: 25px;
     padding: 20px;
-    background-color:  #FF8362;
+    background-color:  #1da0c1;
 }
 .subbox .inner h5 {
     border-radius: 25px;
@@ -166,7 +166,7 @@ header {
 
 
 .contact .input-group {
-     margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .contact i {
@@ -174,7 +174,7 @@ header {
 }
 
 .contact textarea {
-    height:150px;
+    height:120px;
     width:100%;
 }
 
@@ -184,4 +184,15 @@ header {
 
 .contact .btn:hover {
     color:#FF8362;
+}
+
+.contact_us {
+    background-color: gray;
+    color: white;
+}
+
+
+
+.contact_us i {
+    padding: 5px;
 }
