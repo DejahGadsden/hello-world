@@ -172,3 +172,16 @@ header {
 .contact i {
     padding: 15px;
 }
+
+.contact textarea {
+    height:150px;
+    width:100%;
+}
+
+.contact .btn {
+    width:100%;
+}
+
+.contact .btn:hover {
+    color:#FF8362;
+}
